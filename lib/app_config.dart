@@ -8,8 +8,10 @@ class AppConfig {
   static String app_name = "Corsac";
   static String search_bar_text = "Explore the varieties of shoes";
   static String purchase_code = "03ae2718-48ff-46a1-b23c-a8eb917ffc40";
+  // static String system_key =
+  //     "\$2y\$10\$tGndNDe0KX2AfVRPvLSZJ.8bRd35Xk36imAwP3NsI80mDMDudfRdq";
   static String system_key =
-      "\$2y\$10\$tGndNDe0KX2AfVRPvLSZJ.8bRd35Xk36imAwP3NsI80mDMDudfRdq";
+      "\$2y\$10\$Bt5fSn5Cn0BZwNdec2VScOZKTTWnHxBFELpwPyxLkudUPxLaz.CN6";
 
   //Default language config
   static String default_language = "en";

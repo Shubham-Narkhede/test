@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:776084869970:android:39851150e03d9eae8fa08b",
+        "mobilesdk_app_id": "1:776084869970:android:06e5622444dd09908fa08b",
         "android_client_info": {
-          "package_name": "com.example.active_ecommerce_cms_demo_app"
+          "package_name": "com.corsac.ecommerce"
         }
       },
       "oauth_client": [],

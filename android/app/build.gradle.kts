@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.active_ecommerce_cms_demo_app"
+    namespace = "com.corsac.ecommerce"
     compileSdk = 35
     ndkVersion = "28.0.13004108"
 
@@ -26,7 +26,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.active_ecommerce_cms_demo_app"
+        applicationId = "com.corsac.ecommerce"
         minSdk = 23
         targetSdk = 34
         versionCode = flutter.versionCode
@@ -49,7 +49,7 @@ android {
 
     buildTypes {
         release {
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(

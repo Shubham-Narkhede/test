@@ -55,7 +55,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 tag: "backgroundImageInSplash",
                 child: Container(
                   child: Image.asset(
-                      "assets/splash_login_registration_background_image.png"),
+                    "assets/splash_login_registration_background_image.png",
+                  ),
                 ),
               ),
             ),
@@ -70,11 +71,14 @@ class _SplashScreenState extends State<SplashScreen> {
                       child: Container(
                         height: 72,
                         width: 72,
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 12,
+                        ),
                         decoration: BoxDecoration(
-                            color: MyTheme.white,
-                            borderRadius: BorderRadius.circular(8)),
+                          color: MyTheme.golden,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
                         child: Image.asset(
                           "assets/splash_screen_logo.png",
                           filterQuality: FilterQuality.low,
@@ -87,9 +91,10 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Text(
                       AppConfig.app_name,
                       style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 14.0,
-                          color: Colors.white),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14.0,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                   Text(
